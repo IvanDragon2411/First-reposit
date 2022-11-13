@@ -2,7 +2,7 @@ from Fight.Charter import Charecter
 import random
 class Ninja(Charecter):
 
-    def __init__(self, name='', health=100, damage=1, defense=1000, live=True):
+    def __init__(self, name='', health=100, damage=10, defense=1000, live=True):
         Charecter.__init__(self, name, health, damage, defense, live)
 
     def take_damage(self, damage):

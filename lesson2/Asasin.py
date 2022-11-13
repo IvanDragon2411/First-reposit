@@ -2,8 +2,8 @@ from Fight.Charter import Charecter
 import random
 class Asasin(Charecter):
 
-    def __init__(self, name='', health=100, damage=1, live=True):
-        Charecter.__init__(self, name, health, damage, live)
+    def __init__(self, name='', health=100, damage=9, defence=0, live=True):
+        Charecter.__init__(self, name, health, damage, defence, live)
 
     def attack(self, target):
         addd_damge = 0
